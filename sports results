@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sub-District Sports Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .content {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: white;
+        }
+        .section h2 {
+            color: #4CAF50;
+        }
+        .results-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .results-table, .results-table th, .results-table td {
+            border: 1px solid #ddd;
+        }
+        .results-table th, .results-table td {
+            padding: 8px;
+            text-align: left;
+        }
+        .results-table th {
+            background-color: #f2f2f2;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sub-District Sports Results</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#football">Football</a>
+        <a href="#basketball">Basketball</a>
+        <a href="#volleyball">Volleyball</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="content">
+        <section id="about" class="section">
+            <h2>About</h2>
+            <p>Welcome to the Sub-District Sports Results page! Here, you can find the latest results and updates on various sports events happening in our sub-district. Stay tuned for the most recent updates!</p>
+        </section>
+        <section id="football" class="section">
+            <h2>Football Results</h2>
+            <table class="results-table">
+                <tr>
+                    <th>Team</th>
+                    <th>Score</th>
+                    <th>Opponent</th>
+                    <th>Date</th>
+                </tr>
+                <tr>
+                    <td>st ephrems</td>
+                    <td>3 - 1</td>
+                    <td>sB school</td>
+                    <td>2024-05-20</td>
+                </tr>
+                <tr>
+                    <td>sp C</td>
+                    <td>2 - 2</td>
+                    <td>Dpaul</td>
+                    <td>2024-05-18</td>
+                </tr>
+            </table>
+        </section>
+        <section id="basketball" class="section">
+            <h2>Basketball Results</h2>
+            <table class="results-table">
+                <tr>
+                    <th>Team</th>
+                    <th>Score</th>
+                    <th>Opponent</th>
+                    <th>Date</th>
+                </tr>
+                <tr>
+                    <td>Team E</td>
+                    <td>89 - 76</td>
+                    <td>Team F</td>
+                    <td>2024-05-19</td>
+                </tr>
+                <tr>
+                    <td>Team G</td>
+                    <td>95 - 88</td>
+                    <td>Team H</td>
+                    <td>2024-05-17</td>
+                </tr>
+            </table>
+        </section>
+        <section id="volleyball" class="section">
+            <h2>Volleyball Results</h2>
+            <table class="results-table">
+                <tr>
+                    <th>Team</th>
+                    <th>Score</th>
+                    <th>Opponent</th>
+                    <th>Date</th>
+                </tr>
+                <tr>
+                    <td>Team I</td>
+                    <td>3 - 0</td>
+                    <td>Team J</td>
+                    <td>2024-05-16</td>
+                </tr>
+                <tr>
+                    <td>Team K</td>
+                    <td>2 - 3</td>
+                    <td>Team L</td>
+                    <td>2024-05-14</td>
+                </tr>
+            </table>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>If you have any questions or would like to share additional results, please contact us at <a href="mailto:sportsresults@subdistrict.com">sportsresults@subdistrict.com</a>.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Sub-District Sports Results. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
